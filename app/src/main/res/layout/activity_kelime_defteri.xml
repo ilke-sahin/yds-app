@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <EditText
+        android:id="@+id/englishWordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="İngilizce Kelime" />
+
+    <EditText
+        android:id="@+id/turkishMeaningEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/englishWordEditText"
+        android:layout_marginTop="10dp"
+        android:hint="Türkçe Anlamı" />
+
+    <EditText
+        android:id="@+id/exampleSentenceEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/turkishMeaningEditText"
+        android:layout_marginTop="10dp"
+        android:hint="Örnek Cümle" />
+
+    <Button
+        android:id="@+id/addWordButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/exampleSentenceEditText"
+        android:layout_marginTop="20dp"
+        android:text="Kelime Ekle" />
+
+    <TableLayout
+        android:id="@+id/wordTableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addWordButton"
+        android:layout_marginTop="20dp"
+        android:stretchColumns="*"
+        android:background="#E0E0E0">
+    </TableLayout>
+</RelativeLayout>

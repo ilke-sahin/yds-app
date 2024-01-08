@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="grammar_questions">
+        <item>What is the correct past tense of \"go\"?</item>
+        <item>Choose the correct sentence:</item>
+        <item>Which sentence is grammatically incorrect?</item>
+        <item>What is the plural form of \"child\"?</item>
+        <item>Identify the adverb in the sentence: \"She quickly ran to the store.\"</item>
+        <item>Choose the correct usage of the comma:</item>
+        <item>Which word is a synonym for \"happy\"?</item>
+        <item>What is the comparative form of \"far\"?</item>
+        <item>Identify the subject of the sentence: \"The cat is sleeping.\"</item>
+        <item>Choose the correct preposition:</item>
+    </string-array>
+
+    <string-array name="grammar_answers">
+        <item>went</item>
+        <item>He is playing football.</item>
+        <item>She doesn\'t like coffee.</item>
+        <item>children</item>
+        <item>quickly</item>
+        <item>I enjoy hiking, swimming, and camping.</item>
+        <item>joyful</item>
+        <item>farther</item>
+        <item>cat</item>
+        <item>under</item>
+    </string-array>
+
+</resources>
